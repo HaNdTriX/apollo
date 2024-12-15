@@ -55,7 +55,6 @@ export default defineNuxtModule<ModuleOptions>({
       'tslib',
       '@wry/context',
       '@apollo/client',
-      '@vue/apollo-composable',
       'ts-invariant/process')
 
     const clients: Record<string, ClientConfig> = {}
